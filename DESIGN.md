@@ -38,19 +38,19 @@ Arrowhead rotation angles are chosen based on the turn lane indication:
 </tr>
 <tr>
     <td>no rotation<br/>
-        <img alt='Through' width='100px' src='docs/through.svg'/>
+        <img alt='Through' width='100px' src='https://cdn.rawgit.com/openstreetmap/lane-icons/master/docs/through.svg'/>
     </td>
     <td>45 degrees<br/>
-        <img alt='Slight Left' width='100px' src='docs/slight_left.svg'/>
+        <img alt='Slight Left' width='100px' src='https://cdn.rawgit.com/openstreetmap/lane-icons/master/docs/slight_left.svg'/>
     </td>
     <td>70 or 90 degrees<br/>
-        <img alt='Left' width='100px' src='docs/left.svg'/>
+        <img alt='Left' width='100px' src='https://cdn.rawgit.com/openstreetmap/lane-icons/master/docs/left.svg'/>
     </td>
     <td>135 degrees<br/>
-        <img alt='Sharp Left' width='100px' src='docs/sharp_left.svg'/>
+        <img alt='Sharp Left' width='100px' src='https://cdn.rawgit.com/openstreetmap/lane-icons/master/docs/sharp_left.svg'/>
     </td>
     <td>180 degrees<br/>
-        <img alt='Reverse Left' width='100px' src='docs/reverse_left.svg'/>
+        <img alt='Reverse Left' width='100px' src='https://cdn.rawgit.com/openstreetmap/lane-icons/master/docs/reverse_left.svg'/>
     </td>
 </tr>
 </table>
@@ -67,19 +67,19 @@ As the number of arrows increases, the arrows scale down:
 <tr>
     <td>
         <ul><li>3px stroke</li><li>standard arrowhead</li></ul>
-        <img alt='Through' width='100px' src='docs/through.svg'/>
+        <img alt='Through' width='100px' src='https://cdn.rawgit.com/openstreetmap/lane-icons/master/docs/through.svg'/>
     </td>
     <td>
         <ul><li>2.5px stroke</li><li>83% scaled arrowhead</li></ul>
-        <img alt='Left, Through' width='100px' src='docs/left-through.svg'/>
+        <img alt='Left, Through' width='100px' src='https://cdn.rawgit.com/openstreetmap/lane-icons/master/docs/left-through.svg'/>
     </td>
     <td>
         <ul><li>2.25px stroke</li><li>75% scaled arrowhead</li></ul>
-        <img alt='Left, Slight Left, Through' width='100px' src='docs/left-slight_left-through.svg'/>
+        <img alt='Left, Slight Left, Through' width='100px' src='https://cdn.rawgit.com/openstreetmap/lane-icons/master/docs/left-slight_left-through.svg'/>
     </td>
     <td>
         <ul><li>2px stroke</li><li>66% scaled arrowhead</li></ul>
-        <img alt='Reverse Left, Left, Slight Left, Through' width='100px' src='docs/reverse_left-left-slight_left-through.svg'/>
+        <img alt='Reverse Left, Left, Slight Left, Through' width='100px' src='https://cdn.rawgit.com/openstreetmap/lane-icons/master/docs/reverse_left-left-slight_left-through.svg'/>
     </td>
 </tr>
 </table>
