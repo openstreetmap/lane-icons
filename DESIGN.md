@@ -25,23 +25,6 @@ lane arrows.
 
 <img alt='Standard Arrow' width='300px' src='docs/standard_arrow.png'/>
 
-As the number of arrows in an icon increases, the arrows scale down:
-
-<table>
-<tr>
-    <th>Single</th>
-    <th>Double</th>
-    <th>Triple</th>
-    <th>Quad</th>
-</tr>
-<tr>
-    <td><ul><li>3px stroke</li><li>standard arrowhead</li></ul></td>
-    <td><ul><li>2.5px stroke</li><li>83% scaled arrowhead</li></ul></td>
-    <td><ul><li>2px stroke</li><li>66% scaled arrowhead</li></ul></td>
-    <td><ul><li>2px stroke</li><li>50% scaled arrowhead</li></ul></td>
-</tr>
-</table>
-
 
 Arrowhead rotation angles are chosen based on the turn lane indication:
 
@@ -54,16 +37,56 @@ Arrowhead rotation angles are chosen based on the turn lane indication:
     <th>Reverse Left</th>
 </tr>
 <tr>
-    <td>no rotation</td>
-    <td>33 degrees</td>
-    <td>70 degrees</td>
-    <td>130 degrees</td>
-    <td>180 degrees</td>
+    <td>no rotation<br/>
+        <img alt='Through' width='100px' src='docs/through.svg'/>
+    </td>
+    <td>45 degrees<br/>
+        <img alt='Slight Left' width='100px' src='docs/slight_left.svg'/>
+    </td>
+    <td>70 or 90 degrees<br/>
+        <img alt='Left' width='100px' src='docs/left.svg'/>
+    </td>
+    <td>135 degrees<br/>
+        <img alt='Sharp Left' width='100px' src='docs/sharp_left.svg'/>
+    </td>
+    <td>180 degrees<br/>
+        <img alt='Reverse Left' width='100px' src='docs/reverse_left.svg'/>
+    </td>
 </tr>
 </table>
 
+As the number of arrows increases, the arrows scale down:
+
+<table>
+<tr>
+    <th>1 Arrow</th>
+    <th>2 Arrows</th>
+    <th>3 Arrows</th>
+    <th>4 Arrows</th>
+</tr>
+<tr>
+    <td>
+        <ul><li>3px stroke</li><li>standard arrowhead</li></ul>
+        <img alt='Through' width='100px' src='docs/through.svg'/>
+    </td>
+    <td>
+        <ul><li>2.5px stroke</li><li>83% scaled arrowhead</li></ul>
+        <img alt='Left, Through' width='100px' src='docs/left-through.svg'/>
+    </td>
+    <td>
+        <ul><li>2.25px stroke</li><li>75% scaled arrowhead</li></ul>
+        <img alt='Left, Slight Left, Through' width='100px' src='docs/left-slight_left-through.svg'/>
+    </td>
+    <td>
+        <ul><li>2px stroke</li><li>66% scaled arrowhead</li></ul>
+        <img alt='Reverse Left, Left, Slight Left, Through' width='100px' src='docs/reverse_left-left-slight_left-through.svg'/>
+    </td>
+</tr>
+</table>
+
+
 Other important rules for arrows:
-* Bottom aligned with each other, 3px from icon bottom edge
+* Bottom aligned with each other, 2px from icon bottom edge
 * Left-right centered
 * Smooth curves, no kinks
 * Arrow shaft path connects to the arrowhead anchor point
@@ -71,5 +94,5 @@ Other important rules for arrows:
 
 ### Other Icons
 
-Other non-arrow icons (bus, hov, pedestrian, etc) also imitiate the icons found
+Other non-arrow icons (bus, hov, pedestrian, tram, etc) also imitiate the icons found
 in the MUTCD Standard Highway Signs [Appendix](http://mutcd.fhwa.dot.gov/ser-shs_millennium.htm).
